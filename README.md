@@ -4,7 +4,7 @@ ___
 
 # IDOR
 
-Poc:
+Poc CVE Request 1928456:
 - /updatedetailsfromstudent.php?eno=146891651#
 - /updatedetailsfromstudent.php?eno=146891652#
 
@@ -14,7 +14,7 @@ Poc:
 
 ___
 
-Poc:
+Poc CVE Request 1928465:
 
 - /mydetailsfaculty.php?myfid=102
 - /mydetailsfaculty.php?myfid=101
