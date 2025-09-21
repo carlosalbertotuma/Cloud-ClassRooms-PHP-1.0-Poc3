@@ -13,6 +13,16 @@ Poc:
 
 <img width="1841" height="834" alt="image" src="https://github.com/user-attachments/assets/80639b42-cc71-4dec-8a40-f36dda1aa562" />
 
+
+Poc: 
+- /mydetailsstudent.php?myds=harsh@ics.com
+- /mydetailsstudent.php?myds=rohan@ics.com
+  
+<img width="1840" height="840" alt="image" src="https://github.com/user-attachments/assets/fb71980f-b576-4b04-8782-d27a98fa24a8" />
+
+<img width="1851" height="848" alt="image" src="https://github.com/user-attachments/assets/a2c57971-26bb-45f5-8ac7-2e8db356b48b" />
+
+
 ___
 
 ## CVE Request 1928465:
@@ -24,6 +34,15 @@ Poc:
 
 <img width="1800" height="711" alt="image" src="https://github.com/user-attachments/assets/2d2b5f46-9b8c-4330-854e-bdfba9fa82af" />
 
+___
+
+Poc:
+- /updatedetailsfromfaculty.php?myfid=101
+- /updatedetailsfromfaculty.php?myfid=101
+
+<img width="1873" height="754" alt="image" src="https://github.com/user-attachments/assets/7b97ee4a-1954-49b4-b858-9b52962c80d3" />
+
+<img width="979" height="705" alt="image" src="https://github.com/user-attachments/assets/7d8be9c6-59ee-424d-9f7f-6ed07c1b1e96" />
 
 ___
 
