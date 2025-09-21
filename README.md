@@ -15,7 +15,7 @@ Poc:
 
 ___
 
-## 
+## CVE Request 1928469: 
 Poc: 
 - /mydetailsstudent.php?myds=harsh@ics.com
 - /mydetailsstudent.php?myds=rohan@ics.com
