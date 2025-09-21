@@ -11,6 +11,7 @@ Poc:
 
 <img width="1841" height="834" alt="image" src="https://github.com/user-attachments/assets/80639b42-cc71-4dec-8a40-f36dda1aa562" />
 
+___
 
 XSS
 
