@@ -1,8 +1,15 @@
 # Cloud-ClassRooms-PHP-1.0-Poc3
-
 ___
+Software: CloudClassroom PHP Project
+Version: 1.0 (discontinued)
+Business Area: Education / e-Learning Platforms
+___
+Presentation: IDOR (Insecure Direct Object)-  via GET eno parameter
+Security vulnerability: Insecure Direct Object
+Vulnerability Type: Broken Access Control
+Affected Component: updatedetailsfromstudent.php endpoint — GET parameter eno
 
-# IDOR
+# IDOR - Insecure Direct Object
 
 ## CVE Request 1928456:
 Poc IDOR: 
