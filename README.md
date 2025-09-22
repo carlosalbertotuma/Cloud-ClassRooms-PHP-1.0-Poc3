@@ -21,7 +21,11 @@ Poc IDOR:
 <img width="1841" height="834" alt="image" src="https://github.com/user-attachments/assets/80639b42-cc71-4dec-8a40-f36dda1aa562" />
 
 ___
-
+- Presentation: IDOR (Insecure Direct Object)-  via GET myds parameter
+- Security vulnerability: Insecure Direct Object
+- Vulnerability Type: Broken Access Control
+- Affected Component: mydetailsstudent.php endpoint — GET parameter myds
+  
 ## CVE Request 1928469: 
 Poc IDOR: 
 - /mydetailsstudent.php?myds=harsh@ics.com
