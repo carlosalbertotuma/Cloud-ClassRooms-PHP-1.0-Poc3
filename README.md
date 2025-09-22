@@ -1,8 +1,8 @@
 # Cloud-ClassRooms-PHP-1.0-Poc3
 ___
-Software: CloudClassroom PHP Project
-Version: 1.0 (discontinued)
-Business Area: Education / e-Learning Platforms
+- Software: CloudClassroom PHP Project
+- Version: 1.0 (discontinued)
+- Business Area: Education / e-Learning Platforms
 ___
 # IDOR - Insecure Direct Object
 
