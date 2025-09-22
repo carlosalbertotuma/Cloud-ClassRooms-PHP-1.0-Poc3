@@ -38,6 +38,8 @@ Poc:
 
 ___
 
+## CVE Request 1928471:
+
 Poc:
 - /updatedetailsfromfaculty.php?myfid=102
 - /updatedetailsfromfaculty.php?myfid=101
