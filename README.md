@@ -39,7 +39,7 @@ Poc:
 ___
 
 Poc:
-- /updatedetailsfromfaculty.php?myfid=101
+- /updatedetailsfromfaculty.php?myfid=102
 - /updatedetailsfromfaculty.php?myfid=101
 
 <img width="1873" height="754" alt="image" src="https://github.com/user-attachments/assets/7b97ee4a-1954-49b4-b858-9b52962c80d3" />
