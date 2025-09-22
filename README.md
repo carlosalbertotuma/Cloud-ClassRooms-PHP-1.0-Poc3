@@ -4,14 +4,14 @@ Software: CloudClassroom PHP Project
 Version: 1.0 (discontinued)
 Business Area: Education / e-Learning Platforms
 ___
+# IDOR - Insecure Direct Object
+
+## CVE Request 1928456:
 - Presentation: IDOR (Insecure Direct Object)-  via GET eno parameter
 - Security vulnerability: Insecure Direct Object
 - Vulnerability Type: Broken Access Control
 - Affected Component: updatedetailsfromstudent.php endpoint — GET parameter eno
 
-# IDOR - Insecure Direct Object
-
-## CVE Request 1928456:
 Poc IDOR: 
 - /updatedetailsfromstudent.php?eno=146891651#
 - /updatedetailsfromstudent.php?eno=146891652#
@@ -21,12 +21,12 @@ Poc IDOR:
 <img width="1841" height="834" alt="image" src="https://github.com/user-attachments/assets/80639b42-cc71-4dec-8a40-f36dda1aa562" />
 
 ___
+## CVE Request 1928469: 
 - Presentation: IDOR (Insecure Direct Object)-  via GET myds parameter
 - Security vulnerability: Insecure Direct Object
 - Vulnerability Type: Broken Access Control
 - Affected Component: mydetailsstudent.php endpoint — GET parameter myds
-  
-## CVE Request 1928469: 
+
 Poc IDOR: 
 - /mydetailsstudent.php?myds=harsh@ics.com
 - /mydetailsstudent.php?myds=rohan@ics.com
