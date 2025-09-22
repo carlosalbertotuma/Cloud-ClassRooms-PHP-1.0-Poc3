@@ -4,10 +4,10 @@ Software: CloudClassroom PHP Project
 Version: 1.0 (discontinued)
 Business Area: Education / e-Learning Platforms
 ___
-Presentation: IDOR (Insecure Direct Object)-  via GET eno parameter
-Security vulnerability: Insecure Direct Object
-Vulnerability Type: Broken Access Control
-Affected Component: updatedetailsfromstudent.php endpoint — GET parameter eno
+- Presentation: IDOR (Insecure Direct Object)-  via GET eno parameter
+- Security vulnerability: Insecure Direct Object
+- Vulnerability Type: Broken Access Control
+- Affected Component: updatedetailsfromstudent.php endpoint — GET parameter eno
 
 # IDOR - Insecure Direct Object
 
