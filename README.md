@@ -44,6 +44,7 @@ ___
 - Security vulnerability: Insecure Direct Object
 - Vulnerability Type: Broken Access Control
 - Affected Component: mydetailsfaculty.php endpoint — GET parameter myfid
+
 Poc IDOR:
 - /mydetailsfaculty.php?myfid=102
 - /mydetailsfaculty.php?myfid=101
@@ -59,6 +60,7 @@ ___
 - Security vulnerability: Insecure Direct Object
 - Vulnerability Type: Broken Access Control
 - Affected Component: updatedetailsfromfaculty.php endpoint — GET parameter myfid
+
 Poc IDOR:
 - /updatedetailsfromfaculty.php?myfid=102
 - /updatedetailsfromfaculty.php?myfid=101
@@ -69,7 +71,7 @@ Poc IDOR:
 
 ___
 
-# XSS
+# XSS Cross-Site Scripting
 
 ## CVE Request 1928476:
 - Presentation: XSS (Cross-Site Scripting)-  via GET eid parameter
@@ -122,6 +124,7 @@ Poc XSS Storage:
 
 
 ___
+
 ## CVE Request 1928493
 - Presentation: XSS (Cross-Site Scripting)-  via GET exid parameter
 - Security vulnerability: Cross-Site Scripting Storage
@@ -142,7 +145,7 @@ Poc XSS Storage:
 
 ___
 
-# SQL 
+# SQL Injection 
 
 ## CVE Request 1928480
 - Presentation: SQLi (SQl Injection)-  via GET exid parameter
